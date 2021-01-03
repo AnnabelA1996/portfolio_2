@@ -19,6 +19,8 @@
 //     event.target.style.display = 'none'
 // })
 
+// added a comment
+
 document.querySelectorAll('.slides img').forEach(function(slide){
     slide.addEventListener('click',function(img){
         console.log('it worked');
