@@ -8,14 +8,14 @@
     left: 50%;
     margin-bottom: 40px;
     margin-top: 40px;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     color: #fff;
 }
 
 .paragraph_1 {
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 50%;
     float: left;
     height: 100px;
@@ -43,6 +43,8 @@
 .background {
     background-image: url(../images/Artboard\ 1.jpg);
     height: 100vh;
-    background-size: 100% 100%;
-    position: relative;
+        /* background-size: 100% 100%; */
+        position: relative;
+        background-size: cover;
+        background-position: center top;
 }
