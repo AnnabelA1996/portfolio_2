@@ -32,7 +32,7 @@ class MobileNavbar extends HTMLElement {
 
             <!-- Top Navigation Menu -->
             <div class="topnav">
-              <a class="active">LOGO</a>
+              <span class="active custom-icon"></span>
               <!-- Navigation links (hidden by default) -->
               <div id="myLinks">
               <a href="../index.html" class="navitem">Home</a>

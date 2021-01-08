@@ -57,6 +57,26 @@ nav {
     top: 0;
 }
 
+.custom-icon {
+    background-image: url(../images/homepage_logo.png);
+    display: block;
+    background-size: cover;
+    width: 300px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+/* Style navigation menu links */
+.topnav span {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    min-height: 20px;
+}
+
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
     background-color: #ddd;

@@ -19,7 +19,12 @@
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     margin: auto;
+}
 
+@media only screen and (orientation: portrait) {
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .container {
@@ -32,7 +37,6 @@
 .wrapper .container img {
     height: 300px;
     width: 300px;
-    margin: 20px;
     object-fit: cover;
 }
 
