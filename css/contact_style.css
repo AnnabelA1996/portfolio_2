@@ -13,56 +13,60 @@
     color: #fff;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text],
+/* input[type=text],
 select,
 textarea {
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
     border: 1px solid #ccc;
-    /* Gray border */
-    /* border-radius: 4px; */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
     resize: vertical;
-        /* Allow the user to vertically resize the textarea (not horizontally) */
     color: #fff;
 }
 
-/* submit button */
+submit button
 input[type=submit] {
     background-color: #a6bcb1;
     color: white;
     padding: 12px 20px;
     border: none;
-    /* border-radius: 4px; */
     cursor: pointer;
 }
 
-/* submit button hover*/
+submit button hover
 input[type=submit]:hover {
     background-color: #80A090;
 }
 
-/* Form background color & layout */
+Form background color & layout
 .container {
     display: flex;
     justify-content: center;
     padding: 20px;
-    /* background-color: #fff;
-    opacity: 70%; */
     font-family: sans-serif;
-}
+} */
 
 .background {
     background-image: url(../images/Artboard\ 1.jpg);
     height: 100vh;
     background-size: 100% 100%;
     position: relative;
+}
+
+.text-area-1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text-area-2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
 }

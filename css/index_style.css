@@ -3,26 +3,6 @@
     padding: 0;
 }
 
-.btn {
-    all: unset;
-    /* background-color: #f888; */
-    padding: 10px 20px;
-    cursor: pointer;
-    /* border: 3px solid; */
-    margin: 40px;
-    font-size: 24px;
-    font-weight: 100;
-    text-transform: capitalize;
-}
-
-.btn:hover {
-    /* background-color: #fff; */
-    padding: 7px 17px;
-    border: 3px solid #fff;
-    /* border-radius: 5px; */
-    /* color: #f66; */
-}
-
 .homepage h1 {
     text-align: center;
     margin-bottom: 40px;
@@ -55,16 +35,6 @@
     margin-top: 100px;
 }
 
-@media only screen and (orientation: landscape) {
-    /* .background-image {
-        background-image: url(../images/Artboard\ 1.jpg);
-        background-position: center;
-        background-size: contain;
-        width: 250px;
-        height: 250px;
-    } */
-}
-
 .contact h3 {
     text-align: center;
     margin-bottom: 40px;
@@ -72,15 +42,7 @@
     text-transform: capitalize;
 }
 
-/* .background {
-    background: linear-gradient(
-        to right,
-        rgba(0,0,0,0.9),
-        rgba(255,255,255,0.5)
-    ), url('https://picsum.photos/1920/1080?random') 50% no-repeat;
-    height: 100vh;
-    position: relative;
-} */
+
 @media only screen and (orientation: landscape) {
     .background {
         background-image: url(../images/Artboard\ 1.jpg);

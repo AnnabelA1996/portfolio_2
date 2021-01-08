@@ -10,6 +10,7 @@
     margin-top: 40px;
     font-weight: 400;
     font-size: 45px;
+    color: #9bb1ac;
 }
 
 .slides {
@@ -66,4 +67,32 @@
 .center {
     display: flex;
     justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: #9bb1ac;
+}
+
+.previous {
+    display: inline;
+    margin: 10px;
+    background-color: #f1f1f1;
+    color:#9bb1ac;
+    width: 80px;
+}
+
+.next {
+    display: inline;
+margin: 10px;
+    background-color: #9bb1ac;
+    color: white;
+    width: 80px;
+
 }

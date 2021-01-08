@@ -8,7 +8,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8899AA;
+    background-color: #9bb1ac;
 }
 
 .navlist li {
@@ -30,7 +30,7 @@ nav {
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #9bb1ac;
     position: relative;
 }
 
@@ -50,7 +50,7 @@ nav {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-    background: black;
+    background:#9bb1ac;
     display: block;
     position: absolute;
     right: 0;
@@ -60,12 +60,12 @@ nav {
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: #9bb1ac;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-    background-color: #4CAF50;
+    background-color: #9bb1ac;
     color: white;
 }
 
