@@ -14,8 +14,6 @@
 }
 
 .slides {
-    display: flex;
-    justify-content: space-around;
     margin-bottom: 25px;
 }
 
@@ -84,13 +82,13 @@ a:hover {
     display: inline;
     margin: 10px;
     background-color: #f1f1f1;
-    color:#9bb1ac;
+    color: #9bb1ac;
     width: 80px;
 }
 
 .next {
     display: inline;
-margin: 10px;
+    margin: 10px;
     background-color: #9bb1ac;
     color: white;
     width: 80px;
