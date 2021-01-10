@@ -15,16 +15,23 @@
 
 .subheader {
     text-align: left;
-    margin-left: 180px;
     font-weight: 200;
     font-size: 30px;
     color: #9bb1ac;
+    max-width: 1000px;
+    min-width: 1000px;
+}
+.blurb {
+font-size: 17px;
+font-weight: 200;
+    max-width: 1000px;
+    min-width: 1000px;
+    color: #9bb1ac;
 }
 
-.slides {
-    margin-bottom: 25px;
+.wrapper .container img:hover {
+    opacity: 0.3;
 }
-
 .popup {
     display: none;
     /* Hidden by default */
@@ -54,6 +61,11 @@
 
 .popup-slide {
     display: flex;
+    max-width: 80%;
+    max-height: 80%;
+    width: 100%;
+    height: auto;
+    /* look at this w/ jordan later */
 }
 .wrapper {
     display: grid;
@@ -61,7 +73,15 @@
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     margin: auto;
+}
 
+.wrapper_2{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.wrapper_1 {
+    grid-template-columns: repeat(1, 1fr);
+    width: 400px;
 }
 
 .container {
@@ -71,11 +91,26 @@
     position: relative;
 }
 
+.container_2{
+    margin: 15px;
+}
+
+/* .container_1 {
+height: 1000px;
+width: 1000px;
+} */
+
 .wrapper .container img {
     height: 300px;
     width: 300px;
     object-fit: cover;
 }
+
+/* .wrapper .container_1 img {
+    height: 1000px;
+    width: 1000px;
+    object-fit: cover;
+} */
 
 .center {
     display: flex;
@@ -115,7 +150,7 @@ a:hover {
     max-width: 1000px;
     min-width: 1000px;
 }
-
+/* mobile only */
 @media only screen and (orientation: portrait) {
     .wrapper {
         grid-template-columns: repeat(1, 1fr);
@@ -124,10 +159,15 @@ a:hover {
     .footer {
         min-width: 100%;
     }
+    .blurb {
+        min-width: 100%
+        }
 }
 
 .popup-img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 70%;
+    max-height: 70%;
+    width: 100%;
+    height: auto;
     margin-left: 10%;
 }
