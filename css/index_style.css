@@ -57,13 +57,21 @@
 
 @media only screen and (orientation: portrait) {
     .background {
-        /* background-image: url(../images/Artboard\ 1.jpg); */
-        background-color: black;
+        background-image: url(../images/my\ portfolio\ home\ page\ image\ portrait.jpg);
+        /* background-color: black; */
         height: 100vh;
-        /* background-size: 100% 100%; */
+        background-size: 100% 100%;
         position: relative;
         background-size: cover;
         background-position: center top;
+    }
+    .centre-block {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        width: 100%;
+        color: #fff;
     }
 }
 
