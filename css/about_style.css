@@ -22,7 +22,7 @@
     margin-right: 30px;
     margin-left: 100px;
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
 
 }
 
@@ -30,6 +30,7 @@
     float: left;
     height: auto;
     margin-right: 100px;
+    margin-bottom: 50px;
     max-height: 80vh;
     max-width: 400px;
 }

@@ -182,4 +182,13 @@ a:hover {
     width: auto;
     height: auto;
     margin-left: 24px;
-}
+    /* transition: all 5s ease-in-out; */
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+
