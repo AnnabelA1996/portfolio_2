@@ -18,6 +18,7 @@
     font-weight: 300;
     text-transform: capitalize;
 }
+
 @media only screen and (orientation: portrait) {
     .homepage h1 {
         font-size: xx-large;
