@@ -30,7 +30,6 @@
     .background {
         background-image: url(../images/Artboard\ 1.jpg);
         height: 100vh;
-        /* background-size: 100% 100%; */
         position: relative;
         background-size: cover;
         background-position: center top;
