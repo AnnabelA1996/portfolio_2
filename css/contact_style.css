@@ -13,48 +13,6 @@
     color: #fff;
 }
 
-/* input[type=text],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    color: #fff;
-}
-
-submit button
-input[type=submit] {
-    background-color: #a6bcb1;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-submit button hover
-input[type=submit]:hover {
-    background-color: #80A090;
-}
-
-Form background color & layout
-.container {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    font-family: sans-serif;
-} */
-
-.background {
-    background-image: url(../images/Artboard\ 1.jpg);
-    height: 100vh;
-    background-size: 100% 100%;
-    position: relative;
-}
-
 .text-area-1 {
     display: flex;
     justify-content: center;
@@ -69,4 +27,19 @@ Form background color & layout
     justify-content: center;
     color: #fff;
     font-size: 20px;
+}
+
+    .background {
+        background-image: url(../images/Artboard\ 1.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+@media only screen and (orientation: portrait) {
+    .background {
+        background-image: url(../images/my\ portfolio\ home\ page\ image\ portrait.jpg);
+        background-size: 100% 100%;
+    }
 }

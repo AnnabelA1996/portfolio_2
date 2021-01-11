@@ -3,32 +3,6 @@
     padding: 0;
 }
 
-.homepage h1 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 55px;
-    font-weight: 300;
-    text-transform: capitalize;
-}
-
-.homepage h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 45px;
-    font-weight: 300;
-    text-transform: capitalize;
-}
-
-@media only screen and (orientation: portrait) {
-    .homepage h1 {
-        font-size: xx-large;
-        margin-bottom: 10%;
-    }
-    .homepage h2 {
-        font-size: x-large;
-    }
-}
-
 .homepage i {
     display: block;
     text-align: center;
@@ -43,6 +17,14 @@
     text-transform: capitalize;
 }
 
+.centre-block {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
 
 @media only screen and (orientation: landscape) {
     .background {
@@ -58,28 +40,18 @@
 @media only screen and (orientation: portrait) {
     .background {
         background-image: url(../images/my\ portfolio\ home\ page\ image\ portrait.jpg);
-        /* background-color: black; */
         height: 100vh;
         background-size: 100% 100%;
         position: relative;
         background-size: cover;
         background-position: center top;
     }
+    img {
+        width: 80%;
+    }
+
     .centre-block {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        text-align: center;
-        width: 100%;
-        color: #fff;
+        top: 35%;
     }
 }
 
-.centre-block {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    width: 100%;
-    color: #fff;
-}
